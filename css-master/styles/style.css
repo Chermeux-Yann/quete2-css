@@ -12,6 +12,7 @@ header h1{
     text-align: center;
     color: white;
 }
+
 #bateau{
     width: 400px;
     margin-top: 600px;
@@ -30,7 +31,6 @@ header h1{
       }
 }
 
-
 section{
     background-image:url(../img/bg.jpg);
     background-repeat: no-repeat;
@@ -41,6 +41,7 @@ section{
     display:flex;
     justify-content: center;
 }
+
 section div{
     height: 100px;
     width: 100px;
@@ -49,14 +50,14 @@ section div{
     transition: all .5s ease-in-out;
 }
 
-:nth-child(3){
+section :nth-child(3){
     background-color: grey;
 }
+
 div:hover{
     border-radius: 100%;
     transform: rotate(360deg)
 }
-
 
 footer{
     height: 250px;
@@ -66,11 +67,14 @@ footer{
     font-family:'tribuchet ms';
     font-size: 18px;
 }
+
 footer strong{
     font-weight: lighter;
 }
+
 footer img{
     cursor: grab;
     height: 200px;
+    background-color: #5ee1e6;
 }
 
