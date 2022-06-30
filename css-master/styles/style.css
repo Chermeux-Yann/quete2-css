@@ -1,3 +1,7 @@
+.st1{fill:url(#mer_1_);}
+@font-face{
+
+}
 body{
     margin:0;
     padding: 0;
@@ -11,14 +15,18 @@ header{
 header h1{
     text-align: center;
     color: white;
+    
 }
 
 #bateau{
     width: 400px;
-    margin-top: 600px;
+    position: absolute;
+    bottom: 120px;
     animation-duration: 8s;
     animation-name: slidein;
-    animation-fill-mode:forwards
+    animation-fill-mode:forwards;
+    transform: rotate(-15deg);
+    
 }
 
 @keyframes slidein{
@@ -76,5 +84,10 @@ footer img{
     cursor: grab;
     height: 200px;
     background-color: #5ee1e6;
+}
+section svg{
+    position: absolute;
+    bottom: 30px;
+   opacity: 0.5;
 }
 
